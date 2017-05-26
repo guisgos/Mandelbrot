@@ -1,5 +1,4 @@
 package mandelbrot;
-
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.imageio.ImageIO;
@@ -48,6 +47,9 @@ public class MandelbrotRenderer implements Runnable {
     /**
      * This class will be used as a thread, so we must use run() to do our work.
      */
+    
+    
+	
     public void run() {
         int iteration, point;
         double a, b, aOld, x, y;
