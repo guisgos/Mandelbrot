@@ -2,6 +2,7 @@ package mandelbrot;
 
 
 
+
 /**
  * Main class in the Mandelbrot project.  This will eventually, begin threads to
  * create different images of the Mandelbrot set.
